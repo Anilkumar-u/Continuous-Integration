@@ -12,7 +12,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install --upgrade pip
-      - pip install -r Continuous-Integration/Requirements.txt
+      - pip install -r Continuous-Integration/blob/main/Requirements.txt
   build:
     commands:
       - echo "Running tests..."
