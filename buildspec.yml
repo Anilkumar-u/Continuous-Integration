@@ -12,9 +12,8 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install --upgrade pip
-      - pip install --flask
-      #- pip install -r main/requirements.txt
-  build:
+      #- pip install --flask
+      - pip install -r https://github.com/Anilkumar-u/Continuous-Integration/blob/main/buildspec.yml
     commands:
       - echo "Running tests..."
       - cd day-13/simple-python-app/
