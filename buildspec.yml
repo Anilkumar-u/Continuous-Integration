@@ -13,7 +13,7 @@ phases:
       - echo "Installing dependencies..."
       - pip install --upgrade pip
       #- pip install --flask
-      - pip install -r https://github.com/Anilkumar-u/Continuous-Integration/blob/main/buildspec.yml
+      - pip install -r https://github.com/Anilkumar-u/Continuous-Integration/blob/main/requirements.txt
     commands:
       - echo "Running tests..."
       - cd day-13/simple-python-app/
