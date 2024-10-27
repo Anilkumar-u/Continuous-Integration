@@ -12,7 +12,8 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install --upgrade pip
-      - pip install -r main/requirements.txt
+      - pip install --flask
+      #- pip install -r main/requirements.txt
   build:
     commands:
       - echo "Running tests..."
