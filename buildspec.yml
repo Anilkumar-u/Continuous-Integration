@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r Continuos Integration/sample-python-project/Requirements.txt
+      - pip install -r Continuous-Integration/sample-python-project/Requirements.txt
   build:
     commands:
       - echo "Running tests..."
